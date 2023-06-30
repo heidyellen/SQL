@@ -1,0 +1,44 @@
+SQL Structured Query language
+
+SELECT Nome, Sobrenome, Estado
+FROM clientes
+WHERE Estado = 'São Paulo';
+
+
+Criação de tabelas CREATE TABLE Funcionarios (
+			ID INT,
+			Nome VARCHAR(100)
+);
+
+SGBD: Programa para usar linguegem SQL (PostgreSQL, ORACLE, MYSQL, SQLite, SQLServer e Access)
+SQL: Linguagem padrão pra trabalhar com banco de dados
+
+Excel x SQL: Também é um prgrama para se manipular e controlar dados, criar planilhas e relatórios, mas em um nível muito menor.
+Power BI x SQL: PB não faz absolutamente nada sem dados (cria relatórios e dashboard)
+Python x SQL: é uma linguagem de programação para automatizar tarefas, otimização de processos, criação de apps, sites...
+
+Schemas: São banco de dados
+ consulta
+Select * = selecione todas as colunas
+Select * FROM actor; = selecione todas as colunas da tabela actor
+
+Select * FROM custumer;
+
+-- Serve para comentar código
+# Serve para comentar código
+/* */ Serve para comentar várias linha de código
+
+
+Comandos Basicos aula 1 
+select * from = selecionar todas as linhas e colunas de uma tabela;
+select as = Selecionar colunas específicas e dar um nome para essas colunas;
+where = Filtrar a tabela a partir de determinado critério;
+
+identação = vassourinha organiza o código
+
+Executar código
+
+Executar tudo (CTRL + SHIFT + ENTER)
+Executar linha onde o cursor está selecionado CTRL + ENTER)
+
+
